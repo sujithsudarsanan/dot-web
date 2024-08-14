@@ -1,0 +1,128 @@
+.menu-d {
+    li {
+        a {
+            font-size: 14px;
+            color: var(--white);
+        }
+    }
+}
+
+.menu-mob {
+    i {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary);
+        color: var(--white);
+        border-radius: 6px;
+    }
+}
+
+.menu-mobile {
+    background: #02091c;
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .menu-mobile {
+        background: none;
+        position: static;
+    }
+}
+
+.header {
+    transition: all 0.5s ease;
+}
+
+.top-fixed {
+    position: fixed;
+    background-color: var(--black);
+    z-index: 13;
+    padding: 20px 0px !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    .logo {
+        height: 30px;
+    }
+}
+
+.offcanvas {
+    background-color: var(--offcanvas);
+    padding: 24px;
+    text-align: center;
+
+    .main-menu {
+        li {
+            a {
+                font-size: 24px;
+                color: #c4c4c4;
+                padding: 28px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+// desk-header
+.desk-header {
+    position: absolute;
+    top: 0px;
+    padding-top: 60px;
+
+    .barnd {
+        img {
+            height: 40px;
+        }
+    }
+
+    .main-menu {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        li {
+            a {
+                color: #959595;
+                padding: 0px 16px;
+                font-weight: normal;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            .active-nav{
+                color: var(--white);
+            }
+        }
+    }
+}
+
+// mob-header
+.mob-header {
+    background-color: var(--offcanvas);
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+
+    .barnd {
+        img {
+            height: 40px;
+        }
+    }
+}
+
+.fix-tp{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: var(--offcanvas);
+    z-index: 9;
+    padding: 24px 0px !important;
+}

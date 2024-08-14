@@ -1,0 +1,81 @@
+.btn-primary {
+    border: none;
+    min-width: 100px;
+    padding: 0px 24px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 6px;
+    height: 50px;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+    &:hover {
+        background-color: #000;
+    }
+}
+
+.btn-close {
+    width: 32px;
+    height: 32px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 24px;
+    opacity: 1;
+    background-image: none;
+}
+
+.contact-btn {
+    height: 44px;
+    width: auto;
+    padding: 0px 24px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #000;
+    color: var(--white);
+
+    &:hover {
+        background-color: #181818;
+        color: var(--white);
+    }
+}
+
+.icon-watsap {
+    background-color: #247A37;
+    height: 44px;
+    width: 44px;
+    border-radius: 8px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: #2e8741;
+        color: var(--white);
+    }
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+}
+
+.hover-effects {
+    transition: all 0.3s ease-out;
+
+    svg {
+        transition: all 0.3s ease-out;
+        width: 90px;
+        height: 90px;
+    }
+
+    &:hover {
+        svg {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+        }
+    }
+}

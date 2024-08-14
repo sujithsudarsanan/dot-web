@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dale of Terrarium</title>
+
+    <!-- CSS frame work -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- main-stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- icon font -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="main-header">
+        <!-- desktop -->
+        <div class="desk-header w-100 d-none d-lg-block">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html" class="barnd">
+                    <img src="img/logo.webp" alt="">
+                </a>
+                <div class="d-flex gap-5">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="index.html" class="active-nav">Home</a>
+                        </li>
+                        <li>
+                            <a href="about_us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="our_speciality.html">Our Speciality</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Packages</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a href="contact.html" class="d-flex gap-2 contact-btn"><i
+                                class="ri-smartphone-line"></i>Contact Now</a>
+                        <a href="#" class="icon-watsap"><i class="ri-whatsapp-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile -->
+        <div class="mob-header p-3 d-lg-none">
+            <div class="container-xl d-flex justify-content-between">
+                <a href="index.html" class="barnd">
+                    <img src="img/logo.webp" alt="">
+                </a>
+                <a class="menu-mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="ri-menu-5-line"></i>
+                </a>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+
+                <div class="offcanvas-body">
+                    <div class="d-flex flex-column justify-content-between align-items-center gap-5 h-100">
+                        <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><i class="ri-close-line"></i></button>
+                        <ul class="main-menu">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about_us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="our_speciality.html">Our Speciality</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#">Packages</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex gap-2">
+                            <a href="contact.html" class="d-flex gap-2 contact-btn"><i
+                                    class="ri-smartphone-line"></i>Contact Now</a>
+                            <a href="#" class="icon-watsap"><i class="ri-whatsapp-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <section class="main-banner">
+        <div class="container d-flex flex-column justify-content-center justify-content-lg-start">
+            <div class="text-white fs-5 mb-4 text-center text-lg-start" data-aos="fade-up">Dale of Terrarium</div>
+            <h1 class="mb-4 text-gradient" data-aos="fade-up">Connect the DoTs<br class="d-none d-lg-block"> with Nature
+            </h1>
+            <p class="text-center text-lg-start" data-aos="fade-up">The Dale of Terrarium brings the lush beauty of a
+                valley into your home, encased in a stunning glass
+                terrarium. Featuring diverse<br class="d-none d-lg-block"> plants, a tiny stream, and miniature woodland
+                creatures, it creates a
+                serene, enchanting ecosystem. Experience the tranquility of<br class="d-none d-lg-block"> nature on a
+                small scale.</p>
+            <div class="d-flex mt-5 justify-content-center justify-content-lg-start" data-aos="fade-up">
+                <a href="#" class="d-flex gap-1 btn-primary">Explore Now<i
+                        class="ri-arrow-up-circle-line rotate-45"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section>
+        <div class="container padding-top padding-bottom">
+            <div class="row justify-content-lg-between align-items-center">
+                <div class="col-lg-5">
+                    <div class="abt-img" data-aos="fade-up">
+                        <img src="img/abt.webp">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-gradient fs-2 font-weight-400">About Us</h2>
+                    <div class="text-white fs-5 py-3">Discover the Dale of Terrarium, where picturesque valleys are
+                        transformed into captivating
+                        miniature worlds within glass enclosures.</div>
+                    <p class="text-white fs-6 opacity-50 fs-14">The Dale of Terrarium captures the essence of a serene
+                        valley, complete with rolling hills, tiny
+                        rocks, and a flowing stream, all within a glass container. This enchanting ecosystem brings a
+                        slice of nature indoors, providing a calming, beautiful centerpiece for your home. Experience
+                        nature's beauty in a whole new way.</p>
+                    <div class="d-flex mt-5 justify-content-center justify-content-lg-start" data-aos="fade-up">
+                        <a href="#" class="d-flex gap-1 btn-primary">More Details<i
+                                class="ri-arrow-up-circle-line rotate-45"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR HIGLATES -->
+    <section class="padding-bottom pt-5 pt-lg-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-gradient fs-2 mb-4 text-center text-lg-start font-weight-400">Our Highlights</h2>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="h-box" data-aos="fade-up">
+                        <div class="overlay">Cocoon Model Dom Stay</div>
+                        <img src="img/cocon.webp">
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="h-box">
+                        <div class="overlay">Farm</div>
+                        <img src="img/farm.webp">
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="h-box" data-aos="fade-up">
+                        <div class="overlay">Terrarium</div>
+                        <img src="img/Terrarium.webp">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="h-box h-199 mb-4" data-aos="fade-up">
+                        <div class="overlay">Selfie Spot</div>
+                        <img src="img/selfi.webp">
+                    </div>
+                    <div class="h-box h-199 mb-4" data-aos="fade-up">
+                        <div class="overlay">Off-road Jeep Safari</div>
+                        <img src="img/off-road.webp">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="h-box h-425 mb-4" data-aos="fade-up">
+                                <div class="overlay">Trekking</div>
+                                <img src="img/trucking.webp">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="h-box h-425 mb-4" data-aos="fade-up">
+                                <div class="overlay">Village Tour</div>
+                                <img src="img/village.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RECONNECT -->
+    <section class="padding-bottom padding-top bg-hero-banner d-flex align-items-center">
+        <div class="container">
+            <div class="text-gradient fs-4">Reconnect with Nature</div>
+            <h2 class="text-gradient fs-1 font-weight-400">Your Perfect Vacation Awaits</h2>
+            <div class="d-flex gap-2 mt-5 justify-content-center">
+                <a href="contact.html" class="d-flex gap-2 contact-btn"><i class="ri-smartphone-line"></i>Contact
+                    Now</a>
+                <a href="#" class="icon-watsap"><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT GUST THINK -->
+    <section class="padding-bottom padding-top bg-black-overlay">
+        <div class="container mb-3 mb-lg-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-gradient fs-2 mb-4 text-center font-weight-400">What Guest think</h2>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="px-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row n-wrap-mob">
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row n-wrap-mob">
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row n-wrap-mob">
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testi-box p-3 p-lg-5">
+                                    <div class="d-flex gap-2 rating mb-4">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Whether it's a website, mobile app, or software
+                                            interface, great UI/UX design has the power to
+                                            captivate, engage, and delight users, Fostering
+                                            long-lasting relationships
+                                        </p>
+                                    </div>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="user-head">
+                                            <img src="img/head.png">
+                                        </div>
+                                        <div>
+                                            <h3 class="mb-0">Angela Lucy</h3>
+                                            <p class="mb-0">Founder CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="padding-bottom padding-top">
+        <div class="container">
+            <div class="row align-items-center pt-5 pt-lg-0">
+                <div class="col-lg-6">
+                    <h2 class="text-gradient font-weight-400 fs-3 text-center text-lg-start">Plan to visit<br
+                            class="d-none d-lg-block">
+                        our beautiful place</h2>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end d-none d-lg-block text-lg-end">
+                    <a href="#" class="hover-effects">
+                        <svg width="130" height="130" viewBox="0 0 130 130" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="130" height="130" rx="65" fill="#135F24" />
+                            <rect width="130" height="130" rx="65" fill="#E5F926" fill-opacity="0.3" />
+                            <path d="M20.3452 44.8293V43.318H29.3509V44.8293H25.7202V54.9543H23.9702V44.8293H20.3452Z"
+                                fill="white" />
+                            <path
+                                d="M32.5569 55.1475C32.0038 55.1475 31.5038 55.0452 31.0569 54.8407C30.6099 54.6324 30.2557 54.3312 29.9944 53.9373C29.7368 53.5433 29.608 53.0604 29.608 52.4884C29.608 51.996 29.7027 51.5907 29.8921 51.2725C30.0815 50.9543 30.3372 50.7024 30.6591 50.5168C30.9811 50.3312 31.341 50.1911 31.7387 50.0964C32.1364 50.0017 32.5417 49.9297 32.9546 49.8805C33.4773 49.8199 33.9016 49.7706 34.2273 49.7327C34.5531 49.6911 34.7898 49.6248 34.9375 49.5339C35.0853 49.443 35.1591 49.2952 35.1591 49.0907V49.0509C35.1591 48.5547 35.019 48.1702 34.7387 47.8975C34.4622 47.6248 34.0493 47.4884 33.5 47.4884C32.9281 47.4884 32.4773 47.6153 32.1478 47.8691C31.822 48.1191 31.5966 48.3975 31.4716 48.7043L29.875 48.3407C30.0644 47.8104 30.341 47.3824 30.7046 47.0566C31.072 46.7271 31.4944 46.4884 31.9716 46.3407C32.4489 46.1892 32.9508 46.1134 33.4773 46.1134C33.8258 46.1134 34.1951 46.1551 34.5853 46.2384C34.9792 46.318 35.3466 46.4657 35.6875 46.6816C36.0322 46.8975 36.3144 47.2062 36.5341 47.6077C36.7538 48.0055 36.8637 48.5225 36.8637 49.1589V54.9543H35.2046V53.7611H35.1364C35.0266 53.9808 34.8618 54.1967 34.6421 54.4089C34.4224 54.621 34.1402 54.7971 33.7955 54.9373C33.4508 55.0774 33.0379 55.1475 32.5569 55.1475ZM32.9262 53.7839C33.3959 53.7839 33.7974 53.6911 34.1307 53.5055C34.4678 53.3199 34.7235 53.0774 34.8978 52.7782C35.0758 52.4752 35.1648 52.1513 35.1648 51.8066V50.6816C35.1042 50.7422 34.9868 50.799 34.8125 50.8521C34.6421 50.9013 34.447 50.9449 34.2273 50.9827C34.0076 51.0168 33.7936 51.049 33.5853 51.0793C33.3769 51.1058 33.2027 51.1286 33.0625 51.1475C32.733 51.1892 32.4319 51.2592 32.1591 51.3577C31.8902 51.4562 31.6743 51.5983 31.5114 51.7839C31.3523 51.9657 31.2728 52.2081 31.2728 52.5111C31.2728 52.9316 31.4281 53.2498 31.7387 53.4657C32.0493 53.6778 32.4451 53.7839 32.9262 53.7839Z"
+                                fill="white" />
+                            <path d="M40.8253 43.318V54.9543H39.1265V43.318H40.8253Z" fill="white" />
+                            <path
+                                d="M44.6733 51.9941L44.662 49.9202H44.9574L48.4347 46.2271H50.4688L46.5029 50.4316H46.2358L44.6733 51.9941ZM43.1108 54.9543V43.318H44.8097V54.9543H43.1108ZM48.6222 54.9543L45.4972 50.8066L46.6677 49.6191L50.7074 54.9543H48.6222Z"
+                                fill="white" />
+                            <path
+                                d="M58.1435 54.9543L55.5753 46.2271H57.331L59.0412 52.6361H59.1265L60.8424 46.2271H62.5981L64.3026 52.6077H64.3878L66.0867 46.2271H67.8424L65.2799 54.9543H63.5469L61.7742 48.6532H61.6435L59.8708 54.9543H58.1435Z"
+                                fill="white" />
+                            <path
+                                d="M69.4546 54.9543V46.2271H71.1535V54.9543H69.4546ZM70.3125 44.8805C70.0171 44.8805 69.7633 44.782 69.5512 44.585C69.3428 44.3842 69.2387 44.1456 69.2387 43.8691C69.2387 43.5888 69.3428 43.3502 69.5512 43.1532C69.7633 42.9524 70.0171 42.8521 70.3125 42.8521C70.608 42.8521 70.8599 42.9524 71.0682 43.1532C71.2803 43.3502 71.3864 43.5888 71.3864 43.8691C71.3864 44.1456 71.2803 44.3842 71.0682 44.585C70.8599 44.782 70.608 44.8805 70.3125 44.8805Z"
+                                fill="white" />
+                            <path
+                                d="M77.5128 46.2271V47.5907H72.7458V46.2271H77.5128ZM74.0242 44.1361H75.7231V52.3918C75.7231 52.7214 75.7723 52.9695 75.8708 53.1361C75.9693 53.299 76.0962 53.4108 76.2515 53.4714C76.4106 53.5282 76.5829 53.5566 76.7685 53.5566C76.9049 53.5566 77.0242 53.5471 77.1265 53.5282C77.2287 53.5092 77.3083 53.4941 77.3651 53.4827L77.6719 54.8861C77.5734 54.924 77.4333 54.9619 77.2515 54.9998C77.0696 55.0414 76.8424 55.0642 76.5696 55.068C76.1227 55.0755 75.706 54.996 75.3196 54.8293C74.9333 54.6627 74.6208 54.4051 74.3821 54.0566C74.1435 53.7081 74.0242 53.2706 74.0242 52.7441V44.1361Z"
+                                fill="white" />
+                            <path
+                                d="M81.2785 49.7725V54.9543H79.5796V43.318H81.2557V47.6475H81.3637C81.5682 47.1778 81.8807 46.8047 82.3012 46.5282C82.7216 46.2517 83.2709 46.1134 83.9489 46.1134C84.5474 46.1134 85.0701 46.2365 85.5171 46.4827C85.9678 46.7289 86.3163 47.0964 86.5625 47.585C86.8125 48.0699 86.9375 48.6759 86.9375 49.4032V54.9543H85.2387V49.6077C85.2387 48.9676 85.0739 48.4714 84.7444 48.1191C84.4148 47.763 83.9565 47.585 83.3694 47.585C82.9678 47.585 82.608 47.6702 82.2898 47.8407C81.9754 48.0111 81.7273 48.2611 81.5455 48.5907C81.3675 48.9164 81.2785 49.3104 81.2785 49.7725Z"
+                                fill="white" />
+                            <path
+                                d="M98.9674 51.335V46.2271H100.672V54.9543H99.0015V53.443H98.9106C98.7098 53.9089 98.3878 54.2971 97.9446 54.6077C97.5053 54.9146 96.9579 55.068 96.3026 55.068C95.742 55.068 95.2458 54.9449 94.814 54.6986C94.3859 54.4486 94.0488 54.0793 93.8026 53.5907C93.5602 53.1021 93.439 52.4979 93.439 51.7782V46.2271H95.1378V51.5736C95.1378 52.1683 95.3026 52.6418 95.6321 52.9941C95.9617 53.3464 96.3897 53.5225 96.9162 53.5225C97.2344 53.5225 97.5507 53.443 97.8651 53.2839C98.1833 53.1248 98.4465 52.8842 98.6549 52.5623C98.867 52.2403 98.9712 51.8312 98.9674 51.335Z"
+                                fill="white" />
+                            <path
+                                d="M109.494 48.3577L107.955 48.6305C107.89 48.4335 107.788 48.246 107.648 48.068C107.511 47.8899 107.326 47.7441 107.091 47.6305C106.856 47.5168 106.563 47.46 106.21 47.46C105.729 47.46 105.328 47.568 105.006 47.7839C104.684 47.996 104.523 48.2706 104.523 48.6077C104.523 48.8994 104.631 49.1342 104.847 49.3123C105.063 49.4903 105.411 49.6361 105.892 49.7498L107.278 50.068C108.081 50.2536 108.68 50.5396 109.074 50.9259C109.468 51.3123 109.665 51.8142 109.665 52.4316C109.665 52.9543 109.513 53.4202 109.21 53.8293C108.911 54.2346 108.492 54.5528 107.955 54.7839C107.42 55.0149 106.801 55.1305 106.097 55.1305C105.119 55.1305 104.322 54.9221 103.705 54.5055C103.087 54.085 102.708 53.4884 102.568 52.7157L104.21 52.4657C104.313 52.8937 104.523 53.2176 104.841 53.4373C105.159 53.6532 105.574 53.7611 106.085 53.7611C106.642 53.7611 107.087 53.6456 107.421 53.4146C107.754 53.1797 107.921 52.8937 107.921 52.5566C107.921 52.2839 107.818 52.0547 107.614 51.8691C107.413 51.6835 107.104 51.5433 106.688 51.4486L105.21 51.1248C104.396 50.9392 103.794 50.6437 103.403 50.2384C103.017 49.8331 102.824 49.3199 102.824 48.6986C102.824 48.1835 102.968 47.7327 103.256 47.3464C103.544 46.96 103.941 46.6589 104.449 46.443C104.956 46.2233 105.538 46.1134 106.193 46.1134C107.136 46.1134 107.879 46.318 108.421 46.7271C108.962 47.1324 109.32 47.6759 109.494 48.3577Z"
+                                fill="white" />
+                            <path
+                                d="M61.6385 71.1479V72.7717H70.2332L57.005 85.9998L58.1531 87.1479L71.3812 73.9198V82.5144H73.005V71.1479H61.6385Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+            <div class="d-lg-flex justify-content-between padding-top align-items-center pb-5">
+                <div class="d-flex gap-3 social-connection justify-content-center justify-content-lg-start">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about_us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="our_speciality.html">Our Speciality</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Packages</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                    <div class="text-white mb-4 mb-lg-0">© 2024 Dale of Terrarium All Rights Reserved.</div>
+                    <div class="d-flex flex-column flex-lg-row gap-4 text-center text-lg-start">
+                        <a href="#">Changelog</a>
+                        <a href="#">License</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!-- scroll animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- header scroll fix -->
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 500) {
+                $(".desk-header").addClass("fix-tp");
+            } else {
+                $(".desk-header").removeClass("fix-tp");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

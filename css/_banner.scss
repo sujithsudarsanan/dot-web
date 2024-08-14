@@ -1,0 +1,66 @@
+.main-banner {
+    background-color: var(--black);
+    width: 100%;
+    height: auto;
+    background-image: url(../img/banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    background-position: bottom;
+    padding-top: 120px;
+
+    @media (min-width: 992px) {
+        padding-top: 240px;
+        padding-bottom: 120px;
+    }
+
+    h1 {
+        /* Connect the DoTs with Nature */
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            font-size: 68px;
+            line-height: 99px !important;
+            text-align: left;
+        }
+
+    }
+
+    p {
+        font-size: 16px;
+        color: var(--white);
+    }
+}
+
+.inner-banner{
+    background-color: var(--black);
+    width: 100%;
+    height: auto;
+    background-image: url(../img/banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    background-position: top;
+    padding-top: 120px;
+
+    @media (min-width: 992px) {
+        padding-top: 240px;
+        padding-bottom: 120px;
+    }
+
+    h1 {
+        /* Connect the DoTs with Nature */
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            font-size: 68px;
+            line-height: 99px !important;
+            text-align: left;
+        }
+
+    }
+}

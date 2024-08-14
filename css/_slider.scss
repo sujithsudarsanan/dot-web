@@ -1,0 +1,57 @@
+.testi-box {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    @media (min-width: 992px) {
+        height: 300px;
+    }
+    .rating {
+        font-size: 18px;
+        color: #E5F926;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #999999;
+    }
+    .user-head{
+        width: 50px;
+        height: 50px;
+        border-radius: 160px;
+        overflow: hidden;
+        background-color: #666;
+        img{
+            width: 100%;
+            height: 50px;
+            object-fit: cover;
+        }
+    }
+    h3{
+        font-size: 18px;
+        color: var(--white);
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.carousel-indicators{
+    bottom: -70px!important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 160px;
+    background-color: var(--primary);
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+
+.n-wrap-mob{
+    flex-wrap: nowrap!important;
+}

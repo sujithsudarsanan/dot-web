@@ -1,0 +1,23 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.form-structure{
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #474644;
+        background: none;
+        padding: 20px 0px;
+        color: var(--white);
+    }
+    textarea{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #474644;
+        background: none;
+        padding: 20px 0px;
+        color: var(--white);
+        min-height: 250px;
+    }
+}
